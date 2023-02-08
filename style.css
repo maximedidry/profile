@@ -176,6 +176,7 @@ nav li {
   padding: 0 30px;
   font-size: 30px;
   transition: 0.8s;
+  cursor: pointeur;
 }
 
 .list-inline li:hover {

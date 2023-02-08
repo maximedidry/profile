@@ -1,0 +1,298 @@
+body {
+  background: #EADEDA;
+  color: rgb(56, 56, 56);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 65px;
+  font-family:'Rubik 80s Fade', cursive;
+  line-height: 1.1;
+  margin: 20px;
+  text-align: center;
+  padding-top: 40px;
+  color: #4F3257;
+  animation: letterSpace 1.5s cubic-bezier(.36,.03,0,.82);
+  animation-fill-mode: forwards;
+}
+
+div {
+  margin: 0 auto;
+  width: 80%;
+}
+.photo-head{
+  display: block;
+}
+.photo-head .moi {
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 50%;
+  border: 5px solid #e1bfb3;
+  box-shadow: rgba(233, 39, 162, 0.498) -5px 15px;
+
+  transition: 0.8s;
+}
+
+.photo-head:hover .moi:hover{
+  box-shadow: rgba(240, 46, 170, 0.8) -5px 5px,
+              rgba(240, 46, 170, 0.6) -5px 5px,
+              rgba(240, 46, 170, 0.4) -10px 10px,
+              rgba(240, 46, 170, 0.2) -15px 15px,
+              rgba(240, 46, 170, 0.1) -20px 20px,
+              rgba(240, 46, 170, 0.05) -25px 25px,
+              rgba(0, 0, 0, 0.56) 0px 22px 70px 4px,
+                rgba(0, 0, 0, 0.25) 0px 25px 50px -12px,
+                rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  transition: 0.8s;
+}
+/* .photo-head .text{
+  position: relative;
+  top: 0;
+  top: -50%;
+  background-color: red;
+  width: max-content;
+  text-align: center;
+  padding: 0 50px;
+  border-radius: 25px;
+}
+.photo-head .text h2{
+  display: inline-block;
+} */
+
+
+.button-primary {
+  background-color: #e1bfb3;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin : 70px;
+  color: #4F3257;
+  font-weight: bold;
+  transition: 0.4s;
+  padding: 27px 102px;
+}
+
+.button-primary:hover {
+  background-color: #e0977d;
+  opacity: 0.8;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px,
+              rgba(240, 46, 170, 0.3) 0px 10px,
+              rgba(240, 46, 170, 0.2) 0px 15px;
+  transition: 0.4s;
+  color: white;
+
+}
+
+.fa-solid {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+nav {
+  background-color: #ee2b83ba;
+  max-width: 70%;
+  margin: 50px auto;
+  display: inline-block;
+  padding: 0 60px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: static;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+
+nav li {
+  display: inline-block;
+  padding: 30px 50px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.navig {
+  text-decoration: none;
+  color: white;
+  font-weight: semi-bold;
+  background-color: #ef408fed;
+  padding: 20px 50px;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.navig:hover {
+  background-color: #e3c1d0;
+  transition: 1.4s;
+  color: black;
+
+}
+
+
+
+
+
+
+
+.div-1, .div-2 {
+  background-color: #e1bfb3;
+  padding: 30px;
+  border-radius: 50px;
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+
+.div-2 {
+  padding: 60px;
+}
+
+.inline-content {
+  display:flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.list-inline li  {
+  display:inline-block;
+  padding: 0 30px;
+  font-size: 30px;
+  transition: 0.8s;
+}
+
+.list-inline li:hover {
+  opacity: 0.8;
+  transition: 0.8s;
+  color:rgba(240, 46, 170, 0.8)
+}
+
+h2 {
+  color: #4F3257;
+}
+
+.h2-interets {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #4F3257;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.div-3, .div-4 {
+  background-color: #e1bfb3;
+  padding: 50px;
+  margin: 30px auto;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  align-items: center;
+}
+
+.socials i {
+  padding: 25px 30px;
+  color: #4F3257;
+  width: 150px;
+  font-size: 50px;
+  transition: 1s;
+}
+
+.socials i:hover {
+  opacity: 0.8;
+  transition: 0.4s;
+  color:rgba(240, 46, 170, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.logo-wagon {
+  width: 30px;
+  height: 30px;
+  padding-bottom: 20px 0px;
+  padding-top: 20px 0px;
+  border-radius: 50%;
+  vertical-align: middle;
+  color: #4F3257;
+
+}
+
+.fa-figma, .fa-fire, .fa-van-shuttle {
+  color: #4F3257;
+  font-size: 30px;
+  padding: 0 10px;
+  transition: 1s;
+}
+
+.fa-book-open, .fa-graduation-cap {
+  color: #4F3257;
+  font-size: 30px;
+  padding: 0 10px;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+/* Animation */
+
+@keyframes letterSpace {
+  0% {
+    letter-spacing: 0px;
+  }
+
+  100% {
+    letter-spacing: 40px;
+  }
+}
